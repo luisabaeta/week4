@@ -44,9 +44,10 @@ section {
 
 article {
 	float:left;
-	width: 425px;
+	width: 350px;
 	padding-top: 50px;
-	/*padding-left: 30px;*/
+	padding-left: 50px;
+	padding-right: 10px;
 }
 
 article p {
@@ -58,12 +59,13 @@ article p {
 button {
 	padding-left: 80px;
 	padding-right: 80px;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	background-color: #C6C6C6;
 	font-family: "Oswald";
 	border-radius: 5px;
 	box-shadow: 0; 
+	font-size: 20px;
 }
 
 footer {
@@ -80,7 +82,14 @@ footer p {
 
 #overlay {
 	width: 500px;
-	height: 400px;
+	height: 300px;
+	float: right;
+	border-style: none;
+	background-color: white;
+	opacity: 0.8;
+	margin-right: 30px;
+	margin-top: 30px;
+	padding: 0 auto;
 }
 
 #grey {
