@@ -1,4 +1,168 @@
+/*Quesiton: 
+-Font family "" or ''*/
+
 * {
   padding: 0;
   margin: 0;
 }
+
+body {
+	font-family: 'Source Sans Pro';
+}
+
+h1 {
+	color: yellow;
+	font-family: "Merriweather", serif;
+	font-size: 30px;
+}
+
+h2 {
+	font-size: 30px;
+	font-weight: bold;
+	padding-bottom:5px;
+}
+
+h3 {
+	font-family: 'Merriweather', serif;
+	font-size: 25px;
+	padding-bottom:5px;
+
+}
+
+
+header {
+	background-image:url('../images/coworking.jpg');
+	background-size: cover;
+	width:100%;
+	height:600px;
+/*	overflow:auto;
+*/	/*Question: 
+	-why can't I say height 100% to show the full image?;
+	-How big is header usually? (including the hero vs just nav?
+	*/
+}
+
+nav {
+	background-color:black;
+	padding:15px 40px;
+	overflow: auto;
+	border-bottom: 4px solid yellow;
+}
+
+
+.logo {
+	float:left;
+}
+
+.nav-site {
+	float:right;
+	padding:10px 0;	
+}
+
+nav a {
+	text-decoration: none;
+	color:white;
+	padding-left:20px;
+	font-size: 19px;
+}
+
+#tagline {
+	text-align: center;
+	padding:15px 0;
+	font-style:italic;
+	background: #C6C6C6;
+}
+
+#gray{
+	color:gray;
+	text-decoration: line-through;
+}
+
+#underline {
+	text-decoration: yellow underline;
+}
+
+
+.intro-container {
+/*	width:400px;
+*/	float:right;
+	background: rgba(255,255,255,0.85);
+	padding:50px;
+	margin:50px;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+	/*question:is there a way to apply opacity in hex value
+	rather than rgba?*/
+}
+
+.intro {
+	width:400px;
+
+
+}
+
+p {
+	font-weight:400;
+	font-size:19px;
+	line-height:28px;
+}
+
+
+button {
+	font-family: "Oswald";	
+	font-size:20px;
+	background:yellow;
+	padding:10px;
+	margin-top:30px;
+	width:400px;
+	border:none;
+	border-radius: 3px;
+	text-transform: uppercase;
+	box-shadow: 0px 2px 0px #a7a7a7;
+
+}
+
+.main {
+/*	clear:right;
+*/	padding:50px 0;
+/*	background-color: yellow;
+*/	overflow: auto;
+}
+
+.column {
+	float:left;
+	width:350px;
+	padding:0 35px;
+/*	margin-right:-4px;
+*/}
+
+#middle {
+	border-right:1px solid #e3e3e3;
+	border-left:1px solid #e3e3e3;
+}
+
+.callout-button{
+	background: #C6C6C6;
+	width:350px;
+}
+
+footer {
+	clear:left;
+	background-color:black;
+	color:white;
+	padding:20px 37px;
+}
+
+
+
+
+
+Select styles are below. 
+Approximate box model values as best as you can. 
+The given Design is 1280px wide. 
+"Meet your Match" should be about 500px wide and 
+the three lower callouts should be about 425px wide. 
+
+
+
+
+
